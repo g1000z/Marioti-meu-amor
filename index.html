@@ -17,7 +17,6 @@
     --cream: #faf7f4;
     --ink: #1e1510;
     --muted: #7d6860;
-    --gold: #c49a3c;
   }
 
   html { scroll-behavior: smooth; }
@@ -241,62 +240,6 @@
     line-height: 1.6;
   }
 
-  .update-section {
-    background: var(--ink);
-    color: white;
-    padding: 80px 24px;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
-  .update-section .section-label { color: var(--gold); }
-  .update-section .section-title { color: white; }
-  .update-section .section-title em { color: var(--gold); }
-
-  .timeline {
-    display: flex;
-    justify-content: center;
-    gap: 0;
-    margin: 48px auto 0;
-    max-width: 600px;
-    flex-wrap: wrap;
-  }
-  .timeline-month {
-    flex: 1;
-    min-width: 80px;
-    text-align: center;
-    padding: 16px 8px;
-    border-top: 2px solid #3a2e28;
-    position: relative;
-    transition: border-color 0.3s;
-  }
-  .timeline-month.active { border-top-color: var(--rose); }
-  .timeline-month.active::before {
-    content: '';
-    position: absolute;
-    top: -6px; left: 50%;
-    transform: translateX(-50%);
-    width: 10px; height: 10px;
-    background: var(--rose);
-    border-radius: 50%;
-  }
-  .timeline-month .month-name {
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #6b5d57;
-    display: block;
-    margin-bottom: 6px;
-  }
-  .timeline-month.active .month-name { color: var(--rose); }
-  .timeline-month .month-label {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 13px;
-    color: #6b5d57;
-    font-style: italic;
-  }
-  .timeline-month.active .month-label { color: #d4b8b4; }
-
   .cta-section {
     position: relative;
     z-index: 1;
@@ -344,18 +287,6 @@
     margin-top: 4px;
   }
 
-  .update-badge {
-    display: inline-block;
-    margin-top: 40px;
-    background: var(--rose-light);
-    border: 1px solid var(--blush);
-    border-radius: 100px;
-    padding: 10px 24px;
-    font-size: 13px;
-    color: var(--rose-dark);
-    letter-spacing: 0.5px;
-  }
-
   footer {
     position: relative;
     z-index: 1;
@@ -387,7 +318,7 @@
   <h1 class="hero-name">
     Maria<br><em>Olívia</em>
   </h1>
-  <p class="hero-sub">Tudo que eu peço é uma chance — e este site vai crescer com ela.</p>
+  <p class="hero-sub">Tudo que eu peço é uma chance, e este site vai crescer com ela.</p>
   <div class="scroll-cue">leia <span></span></div>
 </section>
 
@@ -398,7 +329,7 @@
   <h2 class="section-title">Não é um <em>pedido grande.</em></h2>
   <div class="prose">
     <p>Não estou pedindo o sim de uma vida inteira. Não estou pedindo que você confie em mim às cegas, que abra mão de nada, ou que sinta algo que ainda não sente.</p>
-    <p>Estou pedindo apenas <strong>uma chance de te conhecer de verdade</strong> — um café, uma conversa, um momento qualquer onde a gente possa ser o que somos sem pressa.</p>
+    <p>Estou pedindo apenas <strong>uma chance de te conhecer de verdade!!!</strong>Um café, uma conversa, um momento qualquer onde a gente possa ser o que somos sem pressa.</p>
     <p>Acho que às vezes a gente deixa algo bom escapar porque não deu o primeiro passo. Eu não quero que isso aconteça.</p>
   </div>
   <div class="quote-card">
@@ -418,15 +349,15 @@
     </div>
     <div class="promise-card">
       <span class="num">02</span>
-      <p class="promise-text">Vou respeitar o seu tempo e o seu espaço — na velocidade que for boa pra você.</p>
+      <p class="promise-text">Vou respeitar o seu tempo e o seu espaço, na velocidade que for boa pra você.</p>
     </div>
     <div class="promise-card">
       <span class="num">03</span>
-      <p class="promise-text">Quero te ouvir de verdade — seus sonhos, suas histórias, suas ideias malukas.</p>
+      <p class="promise-text">Quero te ouvir de verdade. Seus sonhos, suas histórias, suas ideias malukas.</p>
     </div>
     <div class="promise-card">
       <span class="num">04</span>
-      <p class="promise-text">Farei de tudo para que você se sinta especial — porque você é.</p>
+      <p class="promise-text">Farei de tudo para que você se sinta especial.</p>
     </div>
   </div>
   <div class="prose">
@@ -434,16 +365,8 @@
   </div>
 </section>
 
-<div class="update-section">
-  <span class="section-label">Uma promessa ao longo do tempo</span>
-  <h2 class="section-title" style="max-width:580px; margin:0 auto 16px;">Este site vai <em>crescer</em> junto com a nossa história.</h2>
-  <p style="color:#8a7a74; font-size:16px; max-width:460px; margin:0 auto;">Todo mês, uma nova mensagem. Um novo gesto. Uma nova razão. Enquanto eu tiver coragem de tentar, este lugar vai existir — para você.</p>
-
-  <div class="timeline" id="timeline"></div>
-</div>
-
 <section class="cta-section fade-in">
-  <span class="heart-big">♡</span>
+  <span class="heart-big"><3</span>
   <h2 class="cta-title">
     Maria Olívia,<br><em>me dá uma chance?</em>
   </h2>
@@ -451,16 +374,14 @@
     <p>Não precisa ser agora. Não precisa ser perfeito. Só precisa ser real, e eu tenho certeza que seria.</p>
   </div>
 
-  <div class="update-badge">🌸 Próxima atualização: próximo mês</div>
-
   <div class="signature">
     Com carinho e esperança,
-    <strong> - Alguém que vai mudar a sua vida.</strong>
+    <strong>- Alguém que vai mudar a sua vida.</strong>
   </div>
 </section>
 
 <footer>
-  feito com muita coragem · atualizado todo mês · <span id="current-year"></span>
+  feito com muita coragem <3· <span id="current-year"></span>
 </footer>
 
 <script>
@@ -478,21 +399,10 @@
     petalsContainer.appendChild(p);
   }
 
-  const months = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
-  const labels = ['Uma carta', 'Um poema', 'Uma surpresa', 'Um gesto', 'Uma canção', 'Uma promessa', 'Um convite', 'Um momento', 'Uma saudade', 'Um sonho', 'Uma escolha', 'Um sim'];
-  const now = new Date();
-  const currentMonth = now.getMonth();
-  const tl = document.getElementById('timeline');
-  months.forEach((m, i) => {
-    const div = document.createElement('div');
-    div.className = 'timeline-month' + (i === currentMonth ? ' active' : '');
-    div.innerHTML = `<span class="month-name">${m}</span><span class="month-label">${i <= currentMonth ? labels[i] : '…'}</span>`;
-    tl.appendChild(div);
-  });
-
+ const now = new Date();
   document.getElementById('current-year').textContent = now.getFullYear();
 
-  const observer = new IntersectionObserver((entries) => {
+ const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
   }, { threshold: 0.1 });
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
